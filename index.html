@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/customers.css" />
     <link rel="stylesheet" href="css/features.css" />
+    <link rel="stylesheet" href="css/tips.css" />
     <title>Document</title>
   </head>
   <body>
@@ -45,7 +46,10 @@
               >Library<i class="navigation__arrow"></i
             ></a>
           </nav>
-          <button class="action-button">Get Started</button>
+          <button class="action-button header__button">Get Started</button>
+          <button class="header__menu-button">
+            <span class="header__menu-icon"></span>
+          </button>
         </header>
 
         <section class="headline">
@@ -57,8 +61,12 @@
             </p>
 
             <div class="headline__actions">
-              <button class="action-button">Get Started</button>
-              <button class="headline__learn-more-btn">Learn More</button>
+              <button class="action-button headline__action-btn">
+                Get Started
+              </button>
+              <button class="headline__learn-more-btn headline__action-btn">
+                Learn More
+              </button>
             </div>
           </div>
 
@@ -70,56 +78,132 @@
         </section>
       </div>
 
-
       <section class="about">
         <article class="article">
           <h4 class="article__title">What is it about?</h4>
           <p class="article__text">
-            Building a website for a startup that looks amazing is not a rocket science anymore.
-         </p>
+            Building a website for a startup that looks amazing is not a rocket
+            science anymore.
+          </p>
         </article>
         <article class="article">
-         <h4 class="article__title">Who is it for?</h4>
-         <p class="article__text">
-            Startups, small companies and teams, entrepreneurs and web developers.
-        </p>
-       </article>
+          <h4 class="article__title">Who is it for?</h4>
+          <p class="article__text">
+            Startups, small companies and teams, entrepreneurs and web
+            developers.
+          </p>
+        </article>
       </section>
 
       <section class="customers">
-         <img class="customers__item" src="img/logo-nyt.png" alt="New York Times Logo">
-         <img class="customers__item" src="img/logo-forbes.png" alt="Forbes Logo">
-         <img class="customers__item" src="img/logo-apple.png" alt="Apple Logo">
-         <img class="customers__item" src="img/logo-mashable.png" alt="Mashable Logo">
-         <img class="customers__item" src="img/logo-wsg.png" alt="WSJ Logo">
-         <img class="customers__item" src="img/logo-google.png" alt="Google Logo">
+         <div class="customers__row">
+        <div class="customers__item">
+          <img class="customers__logo"
+            src="img/logo-nyt.png"
+            alt="New York Times Logo"/>
+        </div>
+        <div class="customers__item">
+          <img class="customers__logo "
+            src="img/logo-forbes.png"
+            alt="Forbes Logo" />
+        </div>
+        <div class="customers__item">
+          <img class="customers__logo"
+            src="img/logo-apple.png"
+            alt="Apple Logo" />
+        </div>
+      </div>
+
+      <div class="customers__row">
+        <div class="customers__item">
+          <img class="customers__logo"
+            src="img/logo-mashable.png"
+            alt="Mashable Logo"/>
+        </div>
+        <div class="customers__item">
+          <img class="customers__logo"
+            src="img/logo-wsg.png"
+            alt="WSJ Logo"/>
+        </div>
+        <div class="customers__item">
+          <img  class="customers__logo"
+            src="img/logo-google.png"
+            alt="Google Logo" />
+        </div>
+      </div>
       </section>
 
+
+
+      <section class="tips">
+         <div class="tip">
+            <span class="tip__subtitle">Acquire Customers</span>
+            <h3 class="tip__title">Easily find leads and customers</h3>
+            <p class="tip__description">Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
+            <figure class="tip__decoration">
+               <img class="tip__image-caption" src="img/responsive/tip-asquire-customers.png" alt="Asquire Customers">
+               <figcaption class="tip__image-caption">A better way to acquire new users</figcaption>
+            </figure>
+         </div>
+         <div class="tip">
+            <span class="tip__subtitle">Engage Users</span>
+            <h3 class="tip__title">Engage with your audience</h3>
+            <p class="tip__description">Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
+            <figure class="tip__decoration">
+               <img class="tip__image-caption" src="img/responsive/tip-engage-user.png" alt="Engage User">
+               <figcaption class="tip__image-caption">Knowledge base and smart self-service</figcaption>
+            </figure>
+         </div>
+         <div class="tip">
+            <span class="tip__subtitle">Support</span>
+            <h3 class="tip__title">The best customer experiences</h3>
+            <p class="tip__description">A beautifully simple system for tracking, prioritizing, and solving customer support tickets.</p>
+            <figure class="tip__decoration">
+               <img class="tip__image-caption" src="img/responsive/tip-support.png" alt="Support">
+               <figcaption class="tip__image-caption">Live chat and messaging</figcaption>
+            </figure>
+         </div>
+      </section>
+
+
       <section class="features">
-         <img class="features__left-decoration" src="img/features/hidden-ouch.png" alt="Half Hidden Head">
-         <div class="features__content">
-         <div class="features__column">
-          <h4 class="features__subtitle">Features</h4>
-          <h2 class="features__title">Easily find leads and customers</h2>
-          <p class="features__description">Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
-          <div class="features__advantage-header">
-             <img src="img/features/icon-compas.png" alt="Compas">
-             <h5 class="features__advantage-title">Acquire new customers</h5>
-          </div>
+        <img
+          class="features__left-decoration"
+          src="img/features/hidden-ouch.png"
+          alt="Half Hidden Head" />
+        <div class="features__content">
+          <div class="features__column">
+            <h4 class="features__subtitle">Features</h4>
+            <h2 class="features__title">Easily find leads and customers</h2>
+            <p class="features__description">
+              Send one-off and automated email, push, and in-app messages to
+              people. Create better stories.
+            </p>
+            <div class="features__advantage-header">
+              <img src="img/features/icon-compas.png" alt="Compas" />
+              <h5 class="features__advantage-title">Acquire new customers</h5>
+            </div>
             <p class="features__advantage-description">
-             Everything you need to start building – including open-source code, documentation.
+              Everything you need to start building – including open-source
+              code, documentation.
             </p>
             <div class="features__advantage-item">
-               <img src="img/features/icon-building.png" alt="Icon Building">
-               <span class="features__advantage-item-text">Engage users</span>
+              <img src="img/features/icon-building.png" alt="Icon Building" />
+              <span class="features__advantage-item-text">Engage users</span>
             </div>
             <div class="features__advantage-item">
-               <img src="img/features/icon-bucket.png" alt="Icon Bucket">
-               <span class="features__advantage-item-text">Develop across platforms</span>
+              <img src="img/features/icon-bucket.png" alt="Icon Bucket" />
+              <span class="features__advantage-item-text"
+                >Develop across platforms</span
+              >
             </div>
+          </div>
         </div>
-        </div>
-        <img class="features__banner" src="img/features/invision-screen.png" alt="Invision Screen">
+        <img
+          class="features__banner"
+          src="img/features/invision-screen.png"
+          alt="Invision Screen"
+        />
       </section>
 
       <footer class="footer">
