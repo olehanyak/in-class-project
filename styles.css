@@ -75,6 +75,8 @@
       color: #FFFFFF; }
     .vacancy:hover .vacancy__arrow-container {
       background-color: transparent; }
+    .vacancy:hover .icon-arrow_right {
+      background-image: url("img/arrow-icon-white.png"); }
   .vacancy__details {
     padding: 20px;
     flex: 1; }
